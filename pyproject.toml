@@ -1,0 +1,16 @@
+[build-system]
+requires = ["scikit-build-core", "numpy"]
+build-backend = "scikit_build_core.build"
+
+[tool.scikit-build]
+minimum-version = "0.2"
+cmake.minimum-version = "3.26.1"
+cmake.build-type = "Release"
+# cmake.verbose = true
+
+[project]
+name = "afnidespike"
+version = "0.0.1"
+dependencies = [
+    "numpy",
+]
