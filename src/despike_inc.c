@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h> // memcpy
 #include <math.h>
 #define INLINE inline
 #include "afniheaders.h"
